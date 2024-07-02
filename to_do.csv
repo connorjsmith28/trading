@@ -1,0 +1,32 @@
+Priority things:
+
+investigate yfinance package and other packages. Evaluate whole process end to end and then start coding.
+This guy has built something similar to what I imagine building: https://www.reddit.com/user/Jenskubi/
+Models that are really bad are as useful as models that are good. Just do the opposite
+
+
+
+
+Convert minute timeframes to day frames (Might just wait a few more days to get the day values)
+
+Convert close price to range of values (up/down, big up, little up, little down, down)
+
+Research what information is useful for making market decisions
+
+Get 3x leverage ETF data and use that for trading once you've got a feel for basic directional trading strat
+
+Create methodology for determining whether a model/strat is effective.
+    Random start points, choose to hold/sell for given timeperiod (day,week,month), apply strategy/model and use random choice as baseline.
+
+Features:
+    midday (ask Blake about max high/low prop time of day)
+    n day/weeks/months since last winning interval
+
+
+Non-priority things:
+
+combine_historical should only merge new data and not need to re-add everything
+
+Look into creating a scheduler for auto-data pulls and later could incorporate auto-training x-times a day
+
+Figure out how to host data on local server. That way you can run stuff when not home (raspberry pi server possibly)
